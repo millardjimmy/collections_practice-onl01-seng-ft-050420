@@ -35,6 +35,11 @@ def kesha_maker (array)
 end
 
 #question 7 find_a
+def find_a (array)
+  array.select do |word|
+    word.chr == "a"
+  end
+end
 
 #question 8 sum_array
 
